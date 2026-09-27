@@ -1,3 +1,4 @@
+
 /* Basic styling for the body */
 body {
     font-family: Arial, sans-serif;
@@ -7,7 +8,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Style for the header */
+/* Header */
 header {
     background-color: #333;
     color: white;
@@ -19,7 +20,7 @@ header h1 {
     margin: 0;
 }
 
-/* Style for the navigation menu */
+/* Navigation menu */
 nav {
     background-color: #444;
     padding: 10px 0;
@@ -46,10 +47,10 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Style for the sections */
+/* Sections */
 section {
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
     background-color: white;
     border-radius: 5px;
 }
@@ -58,13 +59,27 @@ section h2 {
     margin-top: 0;
 }
 
-/* Style for the footer */
+/* Back to Top button */
+#backToTopBtn {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#backToTopBtn:hover {
+    background-color: #555;
+}
+
+/* Footer */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
-    bottom: 0;
+    margin-top: 30px;
 }
